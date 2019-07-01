@@ -1,5 +1,30 @@
 p {
     font-family: "Quicksand";
-    font-size: 80px;
+  font-size: 40px;
+  color: #033f63;
 }
 
+.navbar {
+  height: 100px;
+  
+}
+.menu {
+  background-color: #f3f2ff;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  text-align: left;
+  vertical-text-align: center;
+  color: #033f63;
+font-size: 40px;
+}
+
+.ddbutton {
+  text-align: right;
+  vertical-align: center;
+}
+
+.alrt {
+  font-size: 60px;
+  font-style: bold;
+}

@@ -11,50 +11,63 @@
 	<!-- your single-location forecast interface here -->
   <div class="container">
     
+    <div class="background">
+    
+    
+    <div class="navbar">
+      <div class="col-11">
+      </div>
+      <div class="col-1">
+        <img  src="/static/weather/assets/button"/>
+      </div>
+      </div>
     
     <!-- row containing city name and distance -->
     <div class="row">
-      <div class="col-8">
-       <p style="font-size: 60px; font-family: 'Quicksand';">BERKELEY </p>
+      <div class="col">
+       <p style="font-size: 80px; color: #033f63;">BERKELEY, CA </p>
       </div>
-      <div class="col-4">
-       <p style="vertical-align:bottom;">0 mi</p>
-      </div>
+     
     </div>
     
     <!-- row containing icon of weather, current temperature -->
-    <div class="row">
+    <div class="row" style="border-style: solid;">
       <div class="col">
-        <img width='70%' src ="/static/weather/assets/cloudy.png"> 
+        <img width='100%' src ="/static/weather/assets/cloudy.png"> 
       </div>
       <div class="col">
-        <p>68</p>
+        <p style="font-size: 140px; text-align: center;">68°F</p>
       </div>
     </div>
     
     <!-- row containing weather description, time -->
     <div class="row">
       <div class="col">
-        <p>partly cloudy</p>
+        <p style="color: black;">partly cloudy</p>
       </div>
       <div class="col">
-        <p> 10:30 am</p>
+        <p style="text-align: right; color: black;"> 10:30 am</p>
       </div>
     </div>
     
     <!-- dropdown menu for hourly -->
     <div class="row menu">
+     
       <div class="col-11">
         <p> HOURLY: </p>
       </div>
       <div class="col-1 ddbutton">
         <p> > </p>
       </div>
+      
     </div>
     
     <!-- hourly forecast diagram -->
-    <div class="row">
-      DRAW IMG FOR THIS
+    <div class="row" >
+      
+        <img width=100% src="/static/weather/assets/hourlyforecast"/>
+   
+      
     </div>
     
     <!-- dropdown menu for alert -->
@@ -67,11 +80,6 @@
       </div>
     </div>
     
-    
-    <!-- alert dropdown -->
-    <div class="row">
-      
-    </div>
     
     <!-- dropdown menu for your ideal day -->
     <div class="row menu">
@@ -86,7 +94,7 @@
     
     <!-- ideal day dropdown -->
     <div class="row">
-      
+      <img padding=0px border=0px width=100% src="/static/weather/assets/daydescription"/>
     </div>
     
     
@@ -102,7 +110,7 @@
   
     
   
-    
+    </div>
   </div>
 </body>
 </html>
