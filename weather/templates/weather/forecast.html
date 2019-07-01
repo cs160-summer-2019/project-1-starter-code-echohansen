@@ -4,13 +4,106 @@
 <html>
 <head>
 	<title>Forecast</title>
-	
 	<link rel="stylesheet" type="text/css" href="{% static 'weather/vendors/bootstrap/css/bootstrap.css' %}" />
 	<link rel="stylesheet" type="text/css" href="{% static 'weather/css/style.css' %}" />
-
 </head>
 <body>
 	<!-- your single-location forecast interface here -->
+  <div class="container">
+    
+    
+    <!-- row containing city name and distance -->
+    <div class="row">
+      <div class="col-8">
+       <p style="font-size: 60px; font-family: 'Quicksand';">BERKELEY </p>
+      </div>
+      <div class="col-4">
+       <p style="vertical-align:bottom;">0 mi</p>
+      </div>
+    </div>
+    
+    <!-- row containing icon of weather, current temperature -->
+    <div class="row">
+      <div class="col">
+        <img width='70%' src ="/static/weather/assets/cloudy.png"> 
+      </div>
+      <div class="col">
+        <p>68</p>
+      </div>
+    </div>
+    
+    <!-- row containing weather description, time -->
+    <div class="row">
+      <div class="col">
+        <p>partly cloudy</p>
+      </div>
+      <div class="col">
+        <p> 10:30 am</p>
+      </div>
+    </div>
+    
+    <!-- dropdown menu for hourly -->
+    <div class="row menu">
+      <div class="col-11">
+        <p> HOURLY: </p>
+      </div>
+      <div class="col-1 ddbutton">
+        <p> > </p>
+      </div>
+    </div>
+    
+    <!-- hourly forecast diagram -->
+    <div class="row">
+      DRAW IMG FOR THIS
+    </div>
+    
+    <!-- dropdown menu for alert -->
+    <div class="row menu">
+      <div class="col-11">
+        <p> ALERT: </p>
+      </div>
+      <div class="col-1 ddbutton">
+        <p> > </p>
+      </div>
+    </div>
+    
+    
+    <!-- alert dropdown -->
+    <div class="row">
+      
+    </div>
+    
+    <!-- dropdown menu for your ideal day -->
+    <div class="row menu">
+      <div class="col-11">
+        <p> YOUR IDEAL DAY? </p>
+      </div>
+      <div class="col-1 ddbutton">
+        <p> > </p>
+      </div>
+    </div>
+    
+    
+    <!-- ideal day dropdown -->
+    <div class="row">
+      
+    </div>
+    
+    
+    <!-- dropdown menu for more details -->
+    <div class="row menu">
+      <div class="col-11">
+        <p> MORE DETAILS ABOUT TODAY: </p>
+      </div>
+      <div class="col-1 ddbutton">
+        <p> > </p>
+      </div>
+    </div>
+  
+    
+  
+    
+  </div>
 </body>
 </html>
 
